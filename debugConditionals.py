@@ -38,8 +38,6 @@ elif x>y:
     print("x is greater than y")
 #3)
 #Broken:
-age = 
-
 #if age < 0:
 #   print "This can hardly be true!"
 #   elif age == 1:
@@ -50,3 +48,14 @@ age =
 #   human = 22 + (age -2)*5
 #   print "Human years: ", human
 
+age = -5
+
+if age < 0:
+    print("This can hardly be true!")
+elif age == 1:
+    print("about 14 human year")
+elif age == 2:
+    print("about 22 human years")
+elif age > 2:
+    human = 22 + (age - 2)*5
+    print("Human years")
