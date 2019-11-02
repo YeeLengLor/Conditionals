@@ -12,6 +12,12 @@ that can help you complete the tasks.'''
 #print(st)
 #Correct:
 
+x = 2
+
+y = 8
+
+if x < y:
+    print("x is less than y")
 #2)
 #Broken:
 #x = 2
@@ -22,7 +28,14 @@ that can help you complete the tasks.'''
 #st = "x is greater than y"
 #print(st)
 #Correct:
+x = 2
 
+y = 8
+
+if x<y:
+    print("x is less than y")
+elif x>y:
+    print("x is greater than y")
 #3)
 #Broken:
 age = 
@@ -36,3 +49,4 @@ age =
 #   elif age > 2:
 #   human = 22 + (age -2)*5
 #   print "Human years: ", human
+
